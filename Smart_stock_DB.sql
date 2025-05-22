@@ -194,26 +194,28 @@ CREATE OR REPLACE TRIGGER trg_block_weekday_and_holiday_dml
 BEFORE INSERT OR UPDATE OR DELETE ON Products
 FOR EACH ROW
 DECLARE
+  PRAGMA AUTONOMOUS_TRANSACTION;
   v_today DATE := TRUNC(SYSDATE);
   v_day VARCHAR2(10);
   v_holiday_count NUMBER;
 BEGIN
+  -- Get current day name (e.g., MON, TUE)
   v_day := TO_CHAR(SYSDATE, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH');
-  
+
+  -- Count if today is a public holiday
   SELECT COUNT(*) INTO v_holiday_count
   FROM Holidays
   WHERE HolidayDate = v_today;
 
   IF v_day IN ('MON', 'TUE', 'WED', 'THU', 'FRI') OR v_holiday_count > 0 THEN
-    -- Log the denied attempt
     INSERT INTO Audit_Log (Username, Action, TableName, ActionTime, Status)
-    VALUES (USER, 'DML Attempt', 'Products', SYSTIMESTAMP, 'DENIED');
-    -- Prevent the action
+    VALUES (USER, 'DML Attempt Blocked', 'Products', SYSTIMESTAMP, 'DENIED');
+    COMMIT;  -- commit the audit entry immediately
     RAISE_APPLICATION_ERROR(-20001, 'DML operations are not allowed on weekdays or holidays.');
   ELSE
-    -- Log allowed action
     INSERT INTO Audit_Log (Username, Action, TableName, ActionTime, Status)
-    VALUES (USER, 'DML Attempt', 'Products', SYSTIMESTAMP, 'ALLOWED');
+    VALUES (USER, 'DML Attempt Allowed', 'Products', SYSTIMESTAMP, 'ALLOWED');
+    COMMIT;
   END IF;
 END;
 
