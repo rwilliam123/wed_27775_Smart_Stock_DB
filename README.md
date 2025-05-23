@@ -67,13 +67,14 @@ OrderDate
 
 Status (e.g., Pending, Delivered)
 
-**2. Relationships**
-Relationship	        |Type
-Products ↔ Sales	|1 to many
-Products ↔ Orders	|1 to many
-Suppliers ↔ Orders	|1 to many
+**2. Relationships**  
 
-Each sale is for one product.
+Relationship	       |Type  
+Products ↔ Sales	   |1 to many  
+Products ↔ Orders	   |1 to many  
+Suppliers ↔ Orders	 |1 to many  
+
+Each sale is for one product.  
 
 >Each order involves one product and one supplier.
 
