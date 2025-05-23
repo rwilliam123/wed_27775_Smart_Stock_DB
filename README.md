@@ -35,7 +35,7 @@ Category
 Price
 
 StockQuantity
-
+--
 II. Sales
 SaleID (PK)
 
@@ -44,7 +44,7 @@ ProductID (FK → Products)
 QuantitySold
 
 SaleDate
-
+--
 III. Suppliers
 SupplierID (PK)
 
@@ -53,7 +53,7 @@ Name
 Contact
 
 DeliveryTime
-
+--
 IV. Orders
 OrderID (PK)
 
@@ -66,7 +66,7 @@ QuantityOrdered
 OrderDate
 
 Status (e.g., Pending, Delivered)
-
+---
 **2. Relationships**  
 
 Relationship	       |Type  
