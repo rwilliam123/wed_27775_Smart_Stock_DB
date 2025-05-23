@@ -1,6 +1,9 @@
 Name: David  Muhirwa  
 ID: 27436  
 
+SMART STOCK SYSTEM
+--
+
 **Problem Statement**  
 
 Many retail and e-commerce businesses face issues like stockouts, overstocking, and sales tracking errors. These problems lead to financial losses and customer dissatisfaction.  
@@ -25,7 +28,7 @@ ER Diagram
 
 **1. Entities and Attributes**
 
-I. Products
+_I. Products_
 ProductID (PK)
 
 Name
@@ -35,8 +38,8 @@ Category
 Price
 
 StockQuantity
---
-II. Sales
+
+_II. Sales_
 SaleID (PK)
 
 ProductID (FK → Products)
@@ -44,8 +47,8 @@ ProductID (FK → Products)
 QuantitySold
 
 SaleDate
---
-III. Suppliers
+
+_III. Suppliers_
 SupplierID (PK)
 
 Name
@@ -53,8 +56,8 @@ Name
 Contact
 
 DeliveryTime
---
-IV. Orders
+
+_IV. Orders_
 OrderID (PK)
 
 ProductID (FK → Products)
@@ -66,7 +69,7 @@ QuantityOrdered
 OrderDate
 
 Status (e.g., Pending, Delivered)
----
+
 **2. Relationships**  
 
 Relationship	       |Type  
