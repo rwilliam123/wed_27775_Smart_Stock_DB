@@ -28,7 +28,7 @@ ER Diagram
 
 **1. Entities and Attributes**
 
-_I. Products_
+_I. Products_  
 ProductID (PK)
 
 Name
@@ -39,7 +39,7 @@ Price
 
 StockQuantity
 
-_II. Sales_
+_II. Sales_  
 SaleID (PK)
 
 ProductID (FK → Products)
@@ -48,7 +48,7 @@ QuantitySold
 
 SaleDate
 
-_III. Suppliers_
+_III. Suppliers_  
 SupplierID (PK)
 
 Name
@@ -57,7 +57,7 @@ Contact
 
 DeliveryTime
 
-_IV. Orders_
+_IV. Orders_    
 OrderID (PK)
 
 ProductID (FK → Products)
