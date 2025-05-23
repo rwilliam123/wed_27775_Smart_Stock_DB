@@ -101,3 +101,18 @@ DEFAULT for Status = 'Pending'
 
 ![image](https://github.com/user-attachments/assets/cc2fa97d-8f5f-4cfe-ad7b-95c8a6f51065)
 
+**Business Process:** Inventory and Sales Management for retail/e-commerce stores.  
+**Objective:** Automate sales recording, inventory tracking, supplier ordering, and financial reporting.  
+
+**Key Actors:**  
+
+Customer (buys products)
+
+Cashier (records sales)
+
+Store Manager (monitors inventory, orders products)
+
+Supplier (delivers products)
+
+System (stores all records)
+
