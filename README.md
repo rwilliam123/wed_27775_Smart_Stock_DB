@@ -77,7 +77,7 @@ Products ↔ Sales	   |1 to many
 Products ↔ Orders	   |1 to many  
 Suppliers ↔ Orders	 |1 to many  
 
-Each sale is for one product.  
+>Each sale is for one product.  
 
 >Each order involves one product and one supplier.
 
