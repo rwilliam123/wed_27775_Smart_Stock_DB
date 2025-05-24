@@ -125,7 +125,9 @@ This business process supports Management Information Systems (MIS) principles b
 The swimlane diagram visually separates each actor’s responsibility, clarifying the information flow and decision-making points. It ensures that each role is clearly understood, supporting operational transparency and accountability, which are critical aspects of an effective MIS.
 
 **DATABASE USER CREATION**  
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/Database%20creation.png?raw=true)
+  
+![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/Database%20creation.png?raw=true)  
+
 
 
 
