@@ -132,6 +132,8 @@ The swimlane diagram visually separates each actor’s responsibility, clarifyin
 
   ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/OEM.png?raw=true)
 
+  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/trigger_block_error.png?raw=true)
+
 ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/audit_log_result.png?raw=true)
 
 
