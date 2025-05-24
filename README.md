@@ -117,5 +117,12 @@ Store Manager (monitors inventory, orders products)
 
 Supplier (delivers products)
 
-System (stores all records)
+System (stores all records)  
+
+The Smart Stock Management System focuses on automating inventory and sales operations for retail businesses. The business process modeled integrates customers, cashiers, store managers, suppliers, and the database system into an efficient workflow.
+The process begins when a customer selects and purchases a product. The cashier records the sale into the system, which automatically updates the stock quantity. If the inventory level falls below a predefined threshold, the system generates a low-stock alert for the store manager. Upon receiving the alert, the manager reviews and approves a restock order, which is then sent to the supplier. After delivery, the system updates the inventory levels accordingly.
+This business process supports Management Information Systems (MIS) principles by automating decision support, improving operational efficiency, and ensuring real-time data availability. Automation minimizes human error, accelerates processes, and supports better financial reporting through accurate data capture. As a result, the organization achieves better control over inventory, enhanced customer satisfaction, and improved profitability.
+The swimlane diagram visually separates each actor’s responsibility, clarifying the information flow and decision-making points. It ensures that each role is clearly understood, supporting operational transparency and accountability, which are critical aspects of an effective MIS.
+
+
 
