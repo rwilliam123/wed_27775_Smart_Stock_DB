@@ -132,18 +132,22 @@ The swimlane diagram visually separates each actor’s responsibility, clarifyin
 
   ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/OEM.png?raw=true)
   ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/window%20function.png?raw=true)
-  ✅ Purpose:
+  ✅ Purpose:  
+    
 Ranks a product based on its total sales compared to all other products, using a window function.
 This function uses a SQL window function (RANK() OVER ...) to calculate the sales rank of a product. It ranks products in descending order of total quantity sold. This is helpful for performance analysis, like finding top-selling products. It uses a subquery and ensures accurate rank even if two products have equal sales.
  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/function.png?raw=true)
- ✅ Purpose:
+ ✅ Purpose:  
+   
 Returns the total quantity sold of a given product from the Sales table.
 This function calculates the total sales of a product by summing all QuantitySold entries in the Sales table. It helps analyze how well a product is performing. It also includes error handling, returning -1 if something unexpected occurs.  
 
 
+![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/procedure.png?raw=true)
+✅ Purpose:  
 
-
-
+This procedure retrieves and displays the product name and available stock for a given product.
+This procedure is used by the store manager to quickly check how many items are left in stock for a specific product. It uses SELECT INTO to fetch values from the Products table and outputs them using DBMS_OUTPUT. If the product doesn’t exist, it raises a user-friendly error message.
  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/package.png?raw=true)
 
 ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/holiday_table.png?raw=true)
