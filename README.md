@@ -136,7 +136,7 @@ The swimlane diagram visually separates each actor’s responsibility, clarifyin
     
 Ranks a product based on its total sales compared to all other products, using a window function.
 This function uses a SQL window function (RANK() OVER ...) to calculate the sales rank of a product. It ranks products in descending order of total quantity sold. This is helpful for performance analysis, like finding top-selling products. It uses a subquery and ensures accurate rank even if two products have equal sales.
- ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/function.png?raw=true)
+ ![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/function.png?raw=true)
  ✅ Purpose:  
    
 Returns the total quantity sold of a given product from the Sales table.
