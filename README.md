@@ -1,5 +1,5 @@
-Name: David  Muhirwa  
-ID: 27436  
+Name: RUKUNDO William 
+ID: 27775 
 
 SMART STOCK SYSTEM
 --
@@ -154,9 +154,8 @@ This procedure is used by the store manager to quickly check how many items are 
 
 ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/trigger.png?raw=true)
 
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/trigger_block_error.png?raw=true)
 
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/audit_log_result.png?raw=true)
+
 
 
 
