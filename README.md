@@ -131,6 +131,7 @@ The swimlane diagram visually separates each actor’s responsibility, clarifyin
 **Oracle Enterprise Manager (OEM):** 
 
   ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/OEM.png?raw=true)
+  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/window%20function.png?raw=true)
 
  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/function.png?raw=true)
 
