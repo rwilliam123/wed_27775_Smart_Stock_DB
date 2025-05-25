@@ -143,7 +143,7 @@ Returns the total quantity sold of a given product from the Sales table.
 This function calculates the total sales of a product by summing all QuantitySold entries in the Sales table. It helps analyze how well a product is performing. It also includes error handling, returning -1 if something unexpected occurs.  
 
 
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/procedure.png?raw=true)
+![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/procedure.png?raw=true)
 ✅ Purpose:  
 
 This procedure retrieves and displays the product name and available stock for a given product.
