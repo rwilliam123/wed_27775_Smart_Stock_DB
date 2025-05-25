@@ -21,7 +21,7 @@ A Smart Stock Management System that automates inventory updates, order processi
 - Incorporated Rwanda’s holiday calendar for realistic restrictions
 
 
-ER Diagram  
+**ER Diagram  **
 
 
 ![image alt](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/ER%20Diagram%20phase%20III.png?raw=true)  
