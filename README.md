@@ -138,7 +138,12 @@ This function uses a SQL window function (RANK() OVER ...) to calculate the sale
  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/function.png?raw=true)
  ✅ Purpose:
 Returns the total quantity sold of a given product from the Sales table.
-This function calculates the total sales of a product by summing all QuantitySold entries in the Sales table. It helps analyze how well a product is performing. It also includes error handling, returning -1 if something unexpected occurs.
+This function calculates the total sales of a product by summing all QuantitySold entries in the Sales table. It helps analyze how well a product is performing. It also includes error handling, returning -1 if something unexpected occurs.  
+
+
+
+
+
  ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/package.png?raw=true)
 
 ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/holiday_table.png?raw=true)
