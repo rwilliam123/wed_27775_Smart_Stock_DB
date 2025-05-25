@@ -150,7 +150,7 @@ This procedure retrieves and displays the product name and available stock for a
 This procedure is used by the store manager to quickly check how many items are left in stock for a specific product. It uses SELECT INTO to fetch values from the Products table and outputs them using DBMS_OUTPUT. If the product doesn’t exist, it raises a user-friendly error message.
  ![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/package.png?raw=true)
 
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/holiday_table.png?raw=true)
+![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/holiday_table.png?raw=true)
 
 ![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/trigger.png?raw=true)
 
