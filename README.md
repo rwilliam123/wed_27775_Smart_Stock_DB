@@ -152,7 +152,7 @@ This procedure is used by the store manager to quickly check how many items are 
 
 ![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/holiday_table.png?raw=true)
 
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/trigger.png?raw=true)
+![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/trigger.png?raw=true)
 
 
 
