@@ -1,5 +1,5 @@
-Name: RUKUNDO William 
-ID: 27775 
+Name: RUKUNDO William   
+ID: 27775   
 
 SMART STOCK SYSTEM
 --
@@ -126,7 +126,7 @@ The swimlane diagram visually separates each actor’s responsibility, clarifyin
 
 **DATABASE USER CREATION**  
   
-![image](https://github.com/Daveeeid/Mon_27436_SmartStockMS/blob/main/Database%20creation.png?raw=true)  
+![image](https://github.com/Daveeeid/wed_27775_SmartStock_DB/blob/main/database.png?raw=true)  
 
 **Oracle Enterprise Manager (OEM):** 
 
